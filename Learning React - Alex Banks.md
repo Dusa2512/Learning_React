@@ -21,6 +21,7 @@ Preface
     Declaring Variables in ES6
         const
         let
+		code block, var vs let
         Template Strings
         Default Parameters
     Arrow Functions
