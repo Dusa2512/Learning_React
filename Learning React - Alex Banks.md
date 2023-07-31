@@ -1,153 +1,137 @@
-Preface
-    Conventions Used in This Book
-    Using Code Examples
-    O’Reilly Safari
-    How to Contact Us
-    Acknowledgments
-1. Welcome to React
-    Obstacles and Roadblocks
-        React Is a Library
-        New ECMAScript Syntax
-        Popularity of Functional JavaScript
-        JavaScript Tooling Fatigue
-        Why React Doesn’t Have to Be Hard to Learn
-    React’s Future
-    Keeping Up with the Changes
-    Working with the Files
-        File Repository
-        React Developer Tools
-        Installing Node.js
-2. Emerging JavaScript
-    Declaring Variables in ES6
-        const
-        let
-		code block, var vs let
-        Template Strings
-        Default Parameters
-    Arrow Functions
-    Transpiling ES6
-    ES6 Objects and Arrays
-        Destructuring Assignment
-        Object Literal Enhancement
-        The Spread Operator
-    Promises
-    Classes
-    ES6 Modules
-    CommonJS
-3. Functional Programming with JavaScript
-    What It Means to Be Functional
-    Imperative Versus Declarative
-    Functional Concepts
-        Immutability
-        Pure Functions
-        Data Transformations
-        Higher-Order Functions
-        Recursion
-        Composition
-        Putting It All Together
-4. Pure React
-    Page Setup
-    The Virtual DOM
-    React Elements
-    ReactDOM
-    Children
-    Constructing Elements with Data
-    React Components
-        React.createClass
-        React.Component
-        Stateless Functional Components
-    DOM Rendering
-    Factories
-5. React with JSX
-    React Elements as JSX
-        JSX Tips
-    Babel
-    Recipes as JSX
-    Intro to Webpack
-        Webpack Loaders
-        Recipes App with a Webpack Build
-6. Props, State, and the Component Tree
-    Property Validation
-        Validating Props with createClass
-        Default Props
-        Custom Property Validation
-        ES6 Classes and Stateless Functional Components
-    Refs
-        Inverse Data Flow
-        Refs in Stateless Functional Components
-    React State Management
-        Introducing Component State
-        Initializing State from Properties
-    State Within the Component Tree
-        Color Organizer App Overview
-        Passing Properties Down the Component Tree
-        Passing Data Back Up the Component Tree
-7. Enhancing Components
-    Component Lifecycles
-        Mounting Lifecycle
-        Updating Lifecycle
-        React.Children
-    JavaScript Library Integration
-        Making Requests with Fetch
-        Incorporating a D3 Timeline
-    Higher-Order Components
-    Managing State Outside of React
-        Rendering a Clock
-    Flux
-        Views
-        Actions and Action Creators
-        Dispatcher
-        Stores
-        Putting It All Together
-        Flux Implementations
-8. Redux
-    State
-    Actions
-        Action Payload Data
-    Reducers
-        The Color Reducer
-        The Colors Reducer
-        The Sort Reducer
-    The Store
-        Subscribing to Stores
-        Saving to localStorage
-    Action Creators
-    Middleware
-        Applying Middleware to the Store
-9. React Redux
-    Explicitly Passing the Store
-    Passing the Store via Context
-    Presentational Versus Container Components
-    The React Redux Provider
-    React Redux connect
-10. Testing
-    ESLint
-    Testing Redux
-        Test-Driven Development
-        Testing Reducers
-        Testing the Store
-    Testing React Components
-        Setting Up the Jest Environment
-        Enzyme
-        Mocking Components
-    Snapshot Testing
-    Using Code Coverage
-11. React Router
-    Incorporating the Router
-        Router Properties
-    Nesting Routes
-        Using a Page Template
-        Subsections and Submenus
-    Router Parameters
-        Adding Color Details Page
-        Moving Color Sort State to Router
-12. React and the Server
-    Isomorphism versus Universalism
-        Server Rendering React
-    Universal Color Organizer
-        Universal Redux
-        Universal Routing
-    Communicating with the Server
-        Completing Actions on the Server
-        Actions with Redux Thunks
-Index
+- Book: Learning React.
+- Chapter 2: Emerging JavaScript.
+    - Section 1: Declaring Variables in ES2
+        - const.
+        - let.
+            - var, if/else, not scoped to the block
+            - let, scope, code block
+        - Template Strings.
+        - string concatenation
+        - Default Parameters.
+    - Section 3: Arrow Functions.
+    - Section 4: Transpiling ES5
+        - convert, ES5 code, Babel, not compiling
+    - Section 6: ES7 Objects and Arrays.
+        - Destructuring Assignment.
+        - Object Literal Enhancement.
+        - The Spread Operator.
+    - Section 8: Promises.
+    - Section 9: Classes.
+    - Section 10: ES11 Modules.
+    - Section 12: CommonJS
+- Chapter 3: Functional Programming with JavaScript.
+    - Section 1: What It Means to Be Functional.
+    - Section 2: Imperative Versus Declarative.
+    - Section 3: Functional Concepts.
+        - Immutability.
+        - Pure Functions.
+        - Data Transformations.
+        - Higher-Order Functions.
+        - Recursion.
+        - Composition.
+        - Putting It All Together.
+- Chapter 4: Pure React.
+    - Section 1: Page Setup.
+    - Section 2: The Virtual DOM
+    - Section 3: React Elements.
+    - Section 4: ReactDOM
+    - Section 5: Children.
+    - Section 6: Constructing Elements with Data.
+    - Section 7: React Components.
+        - React.createClass.
+        - React.Component.
+        - Stateless Functional Components.
+    - Section 8: DOM Rendering.
+    - Section 9: Factories.
+- Chapter 5: React with JSX
+    - Section 1: React Elements as JSX
+        - JSX Tips.
+    - Section 2: Babel.
+    - Section 3: Recipes as JSX
+    - Section 4: Intro to Webpack.
+        - Webpack Loaders.
+        - Recipes App with a Webpack Build.
+- Chapter 6: Props, State, and the Component Tree.
+    - Section 1: Property Validation.
+        - Validating Props with createClass.
+        - Default Props.
+        - Custom Property Validation.
+        - ES2 Classes and Stateless Functional Components.
+    - Section 3: Refs.
+        - Inverse Data Flow.
+        - Refs in Stateless Functional Components.
+    - Section 4: React State Management.
+        - Introducing Component State.
+        - Initializing State from Properties.
+    - Section 5: State Within the Component Tree.
+        - Color Organizer App Overview.
+        - Passing Properties Down the Component Tree.
+        - Passing Data Back Up the Component Tree.
+- Chapter 7: Enhancing Components.
+    - Section 1: Component Lifecycles.
+        - Mounting Lifecycle.
+        - Updating Lifecycle.
+        - React.Children.
+    - Section 2: JavaScript Library Integration.
+        - Making Requests with Fetch.
+        - Incorporating a D3 Timeline.
+    - Section 4: Higher-Order Components.
+    - Section 5: Managing State Outside of React.
+        - Rendering a Clock.
+    - Section 6: Flux.
+        - Views.
+        - Actions and Action Creators.
+        - Dispatcher.
+        - Stores.
+        - Putting It All Together.
+        - Flux Implementations.
+- Chapter 8: Redux.
+    - Section 1: State.
+    - Section 2: Actions.
+        - Action Payload Data.
+    - Section 3: Reducers.
+        - The Color Reducer.
+        - The Colors Reducer.
+        - The Sort Reducer.
+    - Section 4: The Store.
+        - Subscribing to Stores.
+        - Saving to localStorage.
+    - Section 5: Action Creators.
+    - Section 6: Middleware.
+        - Applying Middleware to the Store.
+- Chapter 9: React Redux.
+    - Section 1: Explicitly Passing the Store.
+    - Section 2: Passing the Store via Context.
+    - Section 3: Presentational Versus Container Components.
+    - Section 4: The React Redux Provider.
+    - Section 5: React Redux connect.
+- Chapter 10. Testing.
+    - Section 1: ESLint.
+    - Section 2: Testing Redux.
+        - Test-Driven Development.
+        - Testing Reducers.
+        - Testing the Store.
+    - Section 3: Testing React Components.
+        - Setting Up the Jest Environment.
+        - Enzyme.
+        - Mocking Components.
+    - Section 4: Snapshot Testing.
+    - Section 5: Using Code Coverage.
+- Chapter 11. React Router.
+    - Section 1: Incorporating the Router.
+        - Router Properties.
+    - Section 2: Nesting Routes.
+        - Using a Page Template.
+        - Subsections and Submenus.
+    - Section 3: Router Parameters.
+        - Adding Color Details Page.
+        - Moving Color Sort State to Router.
+- Chapter 12. React and the Server.
+    - Section 1: Isomorphism versus Universalism.
+        - Server Rendering React.
+    - Section 2: Universal Color Organizer.
+        - Universal Redux.
+        - Universal Routing.
+    - Section 3: Communicating with the Server.
+        - Completing Actions on the Server.
+        - Actions with Redux Thunks.
