@@ -1,40 +1,55 @@
-- Book: Learning React.
-- Chapter 2: Emerging JavaScript.
-    - Section 1: Declaring Variables in ES2
+Book: Learning React.
+
+Chapter 2: Emerging JavaScript.
+    - Section 1: Declaring Variables in ES6
         - const.
         - let.
-            - var, if/else, not scoped to the block
-            - let, scope, code block
+            - var, if/else, not scoped to the block.
+            - let, scope, code block.
         - Template Strings.
-        - string concatenation
+        - string concatenation.
         - Default Parameters.
     - Section 3: Arrow Functions.
-    - Section 4: Transpiling ES5
-        - convert, ES5 code, Babel, not compiling
-    - Section 6: ES7 Objects and Arrays.
+    - Section 4: Transpiling ES6
+        - convert, ES6 code, Babel, not compiling.
+    - Section 6: ES6 Objects and Arrays.
         - Destructuring Assignment.
         - Object Literal Enhancement.
         - The Spread Operator.
     - Section 8: Promises.
     - Section 9: Classes.
-    - Section 10: ES11 Modules.
-    - Section 12: CommonJS
-- Chapter 3: Functional Programming with JavaScript.
+		- Old way, function, object, prototype.
+		- New way, works the same way, inheritance, prototype.
+		- create a new instance, new keyword.
+		- extended, inherits the properties and methods.
+    - Section 10: ES6 Modules.
+    	- export, export default.
+		- import, import everything by asterisk.
+    - Section 12: CommonJS.
+
+Chapter 3: Functional Programming with JavaScript.
     - Section 1: What It Means to Be Functional.
-    - Section 2: Imperative Versus Declarative.
+    	- first-class, function, assign, const, var, return, params.
     - Section 3: Functional Concepts.
         - Immutability.
+	    - unchangeable, use changed copies.
+	    - immutable function, not change origin object.
         - Pure Functions.
-        - Data Transformations.
+            - return, base on arguments only.
+            - no side effect, immutable function.
+            - testable.
         - Higher-Order Functions.
+			- manipulate functions, function as argument, return function.
         - Recursion.
         - Composition.
-        - Putting It All Together.
-- Chapter 4: Pure React.
+			- higher-order function, combine functions, parallel or series.
+			- chaining.
+
+Chapter 4: Pure React.
     - Section 1: Page Setup.
-    - Section 2: The Virtual DOM
+    - Section 2: The Virtual DOM.
     - Section 3: React Elements.
-    - Section 4: ReactDOM
+    - Section 4: ReactDOM.
     - Section 5: Children.
     - Section 6: Constructing Elements with Data.
     - Section 7: React Components.
@@ -43,15 +58,17 @@
         - Stateless Functional Components.
     - Section 8: DOM Rendering.
     - Section 9: Factories.
-- Chapter 5: React with JSX
-    - Section 1: React Elements as JSX
+
+Chapter 5: React with JSX.
+    - Section 1: React Elements as JSX.
         - JSX Tips.
     - Section 2: Babel.
-    - Section 3: Recipes as JSX
+    - Section 3: Recipes as JSX.
     - Section 4: Intro to Webpack.
         - Webpack Loaders.
         - Recipes App with a Webpack Build.
-- Chapter 6: Props, State, and the Component Tree.
+
+Chapter 6: Props, State, and the Component Tree.
     - Section 1: Property Validation.
         - Validating Props with createClass.
         - Default Props.
@@ -67,7 +84,8 @@
         - Color Organizer App Overview.
         - Passing Properties Down the Component Tree.
         - Passing Data Back Up the Component Tree.
-- Chapter 7: Enhancing Components.
+
+Chapter 7: Enhancing Components.
     - Section 1: Component Lifecycles.
         - Mounting Lifecycle.
         - Updating Lifecycle.
