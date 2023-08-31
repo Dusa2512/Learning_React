@@ -46,6 +46,8 @@ Chapter 3: Functional Programming with JavaScript.
 			- chaining.
 
 Chapter 4: Pure React.
+    - pure react, not jsx, js, xml
+    - create element without jsx
     - Section 1: Page Setup.
     - Section 2: The Virtual DOM.
     - Section 3: React Elements.
@@ -60,6 +62,7 @@ Chapter 4: Pure React.
     - Section 9: Factories.
 
 Chapter 5: React with JSX.
+    - jsx, create react element
     - Section 1: React Elements as JSX.
         - JSX Tips.
     - Section 2: Babel.
@@ -69,6 +72,7 @@ Chapter 5: React with JSX.
         - Recipes App with a Webpack Build.
 
 Chapter 6: Props, State, and the Component Tree.
+    - manage data
     - Section 1: Property Validation.
         - Validating Props with createClass.
         - Default Props.
