@@ -18,13 +18,13 @@ Chapter 2: Emerging JavaScript.
         - The Spread Operator.
     - Section 8: Promises.
     - Section 9: Classes.
-		- Old way, function, object, prototype.
-		- New way, works the same way, inheritance, prototype.
-		- create a new instance, new keyword.
-		- extended, inherits the properties and methods.
+	- Old way, function, object, prototype.
+	- New way, works the same way, inheritance, prototype.
+	- create a new instance, new keyword.
+	- extended, inherits the properties and methods.
     - Section 10: ES6 Modules.
     	- export, export default.
-		- import, import everything by asterisk.
+	- import, import everything by asterisk.
     - Section 12: CommonJS.
 
 Chapter 3: Functional Programming with JavaScript.
@@ -39,25 +39,44 @@ Chapter 3: Functional Programming with JavaScript.
             - no side effect, immutable function.
             - testable.
         - Higher-Order Functions.
-			- manipulate functions, function as argument, return function.
+	    - manipulate functions, function as argument, return function.
         - Recursion.
         - Composition.
-			- higher-order function, combine functions, parallel or series.
-			- chaining.
+	    - higher-order function, combine functions, parallel or series.
+	    - chaining.
 
 Chapter 4: Pure React.
     - pure react, not jsx, js, xml
     - create element without jsx
     - Section 1: Page Setup.
+        - React work with browser, React & ReactDom lib, render
     - Section 2: The Virtual DOM.
+        - set of instructions, browser, render dom
+	- traditional, each page is 1 html
+	- Ajax allow SPA (1-page app), same page, js detroys & creates UI
+	- React, SPA, virtual DOM, browser dom API, manipulate DOM,
+	- virtual dom = react elements
     - Section 3: React Elements.
+        - Dom element different from React dom element
+	- React element = JS object
     - Section 4: ReactDOM.
+        - tool to render react elements
     - Section 5: Children.
+        - props.children, child elements
     - Section 6: Constructing Elements with Data.
+        - js + logic + data = UI
     - Section 7: React Components.
-        - React.createClass.
-        - React.Component.
-        - Stateless Functional Components.
+	- reuseable elements, 3 ways, react createClass, ES6 class, stateless functional component
+	- element = object, component = abstract
+	- component can contain elements
+        - Point 1: React.createClass.
+	    - create component, deprecated
+        - Point 2: React.Component.
+	    - create component, ES6 class
+        - Point 3: Stateless Functional Components.
+	    - create component, pure function, is functioncal programming
+	    - input props, output react elements
+	    - render by ReactDom.render
     - Section 8: DOM Rendering.
     - Section 9: Factories.
 
@@ -72,7 +91,8 @@ Chapter 5: React with JSX.
         - Recipes App with a Webpack Build.
 
 Chapter 6: Props, State, and the Component Tree.
-    - manage data
+    - manage data.
+    - Mount &compose component.
     - Section 1: Property Validation.
         - Validating Props with createClass.
         - Default Props.
@@ -90,6 +110,10 @@ Chapter 6: Props, State, and the Component Tree.
         - Passing Data Back Up the Component Tree.
 
 Chapter 7: Enhancing Components.
+    - Latency, delay.
+    - Component life cycle, load data, incorporate 3rd party js lib, improve performance.
+    - Reuse function, higher order function.
+    - Manage state outside react.
     - Section 1: Component Lifecycles.
         - Mounting Lifecycle.
         - Updating Lifecycle.
@@ -108,6 +132,8 @@ Chapter 7: Enhancing Components.
         - Putting It All Together.
         - Flux Implementations.
 - Chapter 8: Redux.
+    - Redux is Flux like, not flux.
+    - Actions, action creator, action object, store, reducer.
     - Section 1: State.
     - Section 2: Actions.
         - Action Payload Data.
@@ -149,6 +175,9 @@ Chapter 7: Enhancing Components.
         - Adding Color Details Page.
         - Moving Color Sort State to Router.
 - Chapter 12. React and the Server.
+    - backend, http request, latency
+    - server rendering, performance, portability, sercurity
+    - render, isomorphism and universalism
     - Section 1: Isomorphism versus Universalism.
         - Server Rendering React.
     - Section 2: Universal Color Organizer.
